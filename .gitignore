@@ -1,0 +1,32 @@
+# --- API Keys & Secrets ---
+.env
+secret.json
+keys.txt
+
+# --- Python Virtual Environments ---
+venv/
+.venv/
+env/
+bin/
+include/
+lib/
+
+# --- Python Caching & Compiled Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Distribution / OS Files ---
+dist/
+build/
+*.egg-info/
+.DS_Store
+Thumbs.db
